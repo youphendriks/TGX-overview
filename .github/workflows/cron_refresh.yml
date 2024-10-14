@@ -1,23 +1,25 @@
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron:  '0 10 * * *'
     # This runs at 10:00 AM UTC each day.
     # * is a special character in YAML so you have to quote this string
 
 jobs:
-  build:
+  scheduled:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
       
       - name: setup python
-      - uses: actions/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           
       - name: install python packages
-      - uses: BSFishy/pip-action@v1
+        uses: BSFishy/pip-action@v1
         with:
           packages: |
             numpy==1.26.4
