@@ -22,10 +22,10 @@ jobs:
         uses: BSFishy/pip-action@v1
         with:
           packages: |
-            numpy==1.26.4
-            pandas==2.2.2
-            py-markdown-table==0.4.0
-            tabulate==0.9.0
+            beautifulsoup==4.12.3
+            bs4==0.0.2
+            Markdown==3.7
+            soupsieve==2.6
             
       - name: run python script
         run: python3 scripts/create-software.py
