@@ -55,15 +55,16 @@ def extractData(project, taglist):
 
 # 4. Format Json
 def formatJson(tagdict, name):
+    createJson(tagdict, name)
     formatTagdict = {}
     for tag in tagdict:
         html = markdown.markdown(tagdict[tag])
         html = html.replace("\n"," ")
         html = html.replace("\t"," ")
+        html = html.replace("\t"," ")
         formatTagdict[tag] = html
     print("formatTagdict:")
     print(formatTagdict)
-    createJson(formatTagdict, name)
 
 # 5. Create Json
 def createJson(formatTagdict, name):
