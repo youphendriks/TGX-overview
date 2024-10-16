@@ -29,4 +29,19 @@ jobs:
             
       - name: run python script
         run: python3 scripts/create-software.py
+      # Commit and push
+      - name: GIT commit and push docs overriding conflicts with local changes (verbose)
+        env: 
+          CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+          CI_COMMIT_AUTHOR: Continuous Integration
+        run: |
+          git config --global user.name "Github Action"
+          git config --global user.email "youp_hendriks@hotmail.com"
+          git add db/*
+          git add pages/*
+          git add index.html
+          git commit -m "Pushed using Github Actions"
+          git push
+    
+    
    
