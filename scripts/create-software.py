@@ -83,7 +83,7 @@ def createHTML(projectlist):
             <div class="col">
                 <button class="accordion">
                     <h2>
-                        ' + projectHTML["Title"] + '
+                        ''' + projectHTML["Title"] + '''
                     </h2>
                     <p id="statement">
                         ''' + projectHTML["Statement"] + '''
