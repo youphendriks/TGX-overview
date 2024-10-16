@@ -86,7 +86,7 @@ def createHTML(projectlist):
                         ' + projectHTML["Title"] + '
                     </h2>
                     <p id="statement">
-                        ' + projectHTML["Statement"] + '
+                        ''' + projectHTML["Statement"] + '''
                     </p>
                 </button>
                 <div class="panel">
@@ -97,7 +97,7 @@ def createHTML(projectlist):
                             </b>
                         </h4>
                         <p id="description">
-                            ' + projectHTML["Description"] + '
+                            ''' + projectHTML["Description"] + '''
                         </p>
                     </p>
                 </div>
