@@ -38,17 +38,29 @@
     </nav>
   </header>
   <body>
-    <div class="container" id="bodyContainer"><div class="col"><button class="accordion"><h2>CyNeo4j</h2><br><p id="statement">A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.<br></p></button><div class="panel"><p id="description"><h4><b>Description:</b></h4><br>Minimum System Requirements (for CyNeo4j 2.x):
-
-Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well)
-Cytoscape 3.9.x (automatically comes with a Java 11 download)
-Java 11 (Eclipse)
-Compiling the script The setup of this project in Eclipse has been tested with:
-
-Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11.
-Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).
-
-For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !</div></div>
+    <div class="container" id="bodyContainer">
+            <div class="col">
+                <button class="accordion">
+                    <h2>
+                        ' + projectHTML["Title"] + '
+                    </h2>
+                    <p id="statement">
+                        ' + projectHTML["Statement"] + '
+                    </p>
+                </button>
+                <div class="panel">
+                    <p id="description">
+                        <h4>
+                            <b>
+                                Description:
+                            </b>
+                        </h4>
+                        <p id="description">
+                            ' + projectHTML["Description"] + '
+                        </p>
+                    </p>
+                </div>
+            </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
