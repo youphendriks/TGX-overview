@@ -79,7 +79,29 @@ def createHTML(projectlist):
         name = project["name"]
         projectHTML= open(("db/" + name + "/" + name + ".json"), 'r').read()
         projectHTML = json.loads(projectHTML)
-        accordion = '<div class="col"><button class="accordion"><h2>' + projectHTML["Title"] + '</h2><br><p id="statement">' + projectHTML["Statement"] + '<br></p></button><div class="panel"><p id="description"><h4><b>Description:</b></h4><br>' + projectHTML["Description"] + '</div></div>'
+        accordion = '''
+            <div class="col">
+                <button class="accordion">
+                    <h2>
+                        ' + projectHTML["Title"] + '
+                    </h2>
+                    <p id="statement">
+                        ' + projectHTML["Statement"] + '
+                    </p>
+                </button>
+                <div class="panel">
+                    <p id="description">
+                        <h4>
+                            <b>
+                                Description:
+                            </b>
+                        </h4>
+                        <p id="description">
+                            ' + projectHTML["Description"] + '
+                        </p>
+                    </p>
+                </div>
+            </div>'''
     split = template.split('id="bodyContainer">')
     html = split[0] + 'id="bodyContainer">'+ accordion + split[1]
     with open(('pages/software.html'), 'w') as f:
