@@ -15,7 +15,7 @@ def main():
     for project in projectlist:
         tagdict, name = extractData(project, taglist)
         # 4. Create Json
-        formatJson = createJSon(tagdict, name)
+        formatJson = createJson(tagdict, name)
         # 5. Save Json
         saveJson(formatJson, name)
     # 6. Create HTML
