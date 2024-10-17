@@ -39,492 +39,522 @@
   </header>
   <body>
     <div class="container" id="bodyContainer">
-            <div class="col">
-                <button class="accordion">
-                    <h2>
-                        <p>CyNeo4j</p>
-                    </h2>
-                    <p id="statement">
-                        <p>A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.</p>
+        <div class="col">
+            <button class="accordion">
+                <h2>
+                    CyNeo4j
+                </h2>
+                <p id="statement">
+                    A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.
+                </p>
+            </button>
+            <div class="panel">
+                <p id="description">
+                    <h4>
+                        <b>
+                            Description:
+                        </b>
+                    </h4>
+                    <p id="descriptionJson">
+                        Minimum System Requirements (for CyNeo4j 2.x):
+
+Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well)
+Cytoscape 3.9.x (automatically comes with a Java 11 download)
+Java 11 (Eclipse)
+Compiling the script The setup of this project in Eclipse has been tested with:
+
+Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11.
+Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).
+
+For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !
                     </p>
-                </button>
-                <div class="panel">
-                    <p id="description">
-                        <h4>
-                            <b>
-                                Description:
-                            </b>
-                        </h4>
-                        <p id="descriptionJson">
-                            <p>Minimum System Requirements (for CyNeo4j 2.x):</p> <p>Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well) Cytoscape 3.9.x (automatically comes with a Java 11 download) Java 11 (Eclipse) Compiling the script The setup of this project in Eclipse has been tested with:</p> <p>Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11. Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).</p> <p>For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !</p>
-                        </p>
+                </p>
+                <p id="license">
+                    <h4>
+                        <b>
+                            License:
+                        </b>
+                    </h4>
+                    <p id="licenseJson">
+                        {{Replace by license title}}
                     </p>
-                    <p id="license">
-                        <h4>
-                            <b>
-                                License:
-                            </b>
-                        </h4>
-                        <p id="licenseJson">
-                            <p>{{Replace by license title}}</p>
-                        </p>
+                </p>
+                <p id="dependencies">
+                    <h4>
+                        <b>
+                            Dependencies:
+                        </b>
+                    </h4>
+                    <p id="dependenciesJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="dependencies">
-                        <h4>
-                            <b>
-                                Dependencies:
-                            </b>
-                        </h4>
-                        <p id="dependenciesJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="code-language">
+                    <h4>
+                        <b>
+                            Code language(s):
+                        </b>
+                    </h4>
+                    <p id="code-languageJson">
+                        {{Replace by }}
                     </p>
-                    <p id="code-language">
-                        <h4>
-                            <b>
-                                Code language(s):
-                            </b>
-                        </h4>
-                        <p id="code-languageJson">
-                            <p>{{Replace by }}</p>
-                        </p>
+                </p>
+                <p id="available-platform">
+                    <h4>
+                        <b>
+                            Available platform(s):
+                        </b>
+                    </h4>
+                    <p id="available-platformJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="available-platform">
-                        <h4>
-                            <b>
-                                Available platform(s):
-                            </b>
-                        </h4>
-                        <p id="available-platformJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="interface-cli">
+                    <h4>
+                        <b>
+                            Interface CLI:
+                        </b>
+                    </h4>
+                    <p id="interface-cliJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-cli">
-                        <h4>
-                            <b>
-                                Interface CLI:
-                            </b>
-                        </h4>
-                        <p id="interface-cliJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-gui">
+                    <h4>
+                        <b>
+                            Interface GUI:
+                        </b>
+                    </h4>
+                    <p id="interface-guiJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-gui">
-                        <h4>
-                            <b>
-                                Interface GUI:
-                            </b>
-                        </h4>
-                        <p id="interface-guiJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-web-platform">
+                    <h4>
+                        <b>
+                            Interface web platform:
+                        </b>
+                    </h4>
+                    <p id="interface-web-platformJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-web-platform">
-                        <h4>
-                            <b>
-                                Interface web platform:
-                            </b>
-                        </h4>
-                        <p id="interface-web-platformJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="input-format">
+                    <h4>
+                        <b>
+                            Input format:
+                        </b>
+                    </h4>
+                    <p id="input-formatJson">
+                        {{Replace by usable input formats (eg. "text, dataset")}}
                     </p>
-                    <p id="input-format">
-                        <h4>
-                            <b>
-                                Input format:
-                            </b>
-                        </h4>
-                        <p id="input-formatJson">
-                            <p>{{Replace by usable input formats (eg. "text, dataset")}}</p>
-                        </p>
+                </p>
+                <p id="output-format">
+                    <h4>
+                        <b>
+                            Output format:
+                        </b>
+                    </h4>
+                    <p id="output-formatJson">
+                        {{Replace by given output formats (eg. "text, graph")}}
                     </p>
-                    <p id="output-format">
-                        <h4>
-                            <b>
-                                Output format:
-                            </b>
-                        </h4>
-                        <p id="output-formatJson">
-                            <p>{{Replace by given output formats (eg. "text, graph")}}</p>
-                        </p>
+                </p>
+                <p id="source-code">
+                    <h4>
+                        <b>
+                            Source code:
+                        </b>
+                    </h4>
+                    <p id="source-codeJson">
+                        {{Replace by link to the source code}}
                     </p>
-                    <p id="source-code">
-                        <h4>
-                            <b>
-                                Source code:
-                            </b>
-                        </h4>
-                        <p id="source-codeJson">
-                            <p>{{Replace by link to the source code}}</p>
-                        </p>
+                </p>
+                <p id="documentation-link">
+                    <h4>
+                        <b>
+                            Documentation link:
+                        </b>
+                    </h4>
+                    <p id="documentation-linkJson">
+                        {{Replace by link to documentation}}
                     </p>
-                    <p id="documentation-link">
-                        <h4>
-                            <b>
-                                Documentation link:
-                            </b>
-                        </h4>
-                        <p id="documentation-linkJson">
-                            <p>{{Replace by link to documentation}}</p>
-                        </p>
+                </p>
+                <p id="installation-instructions">
+                    <h4>
+                        <b>
+                            Installation instructions:
+                        </b>
+                    </h4>
+                    <p id="installation-instructionsJson">
+                        {{Replace by instalation instructions}}
                     </p>
-                    <p id="installation-instructions">
-                        <h4>
-                            <b>
-                                Installation instructions:
-                            </b>
-                        </h4>
-                        <p id="installation-instructionsJson">
-                            <p>{{Replace by instalation instructions}}</p>
-                        </p>
+                </p>
+                <p id="zenodo-link">
+                    <h4>
+                        <b>
+                            Zenodo link:
+                        </b>
+                    </h4>
+                    <p id="zenodo-linkJson">
+                        {{Replace by Zenodo link}}
                     </p>
-                    <p id="zenodo-link">
-                        <h4>
-                            <b>
-                                Zenodo link:
-                            </b>
-                        </h4>
-                        <p id="zenodo-linkJson">
-                            <p>{{Replace by Zenodo link}}</p>
-                        </p>
+                </p>
+                <p id="citation-instructions">
+                    <h4>
+                        <b>
+                            Citation instructions:
+                        </b>
+                    </h4>
+                    <p id="citation-instructionsJson">
+                        {{Replace by citation instructions}}
                     </p>
-                    <p id="citation-instructions">
-                        <h4>
-                            <b>
-                                Citation instructions:
-                            </b>
-                        </h4>
-                        <p id="citation-instructionsJson">
-                            <p>{{Replace by citation instructions}}</p>
-                        </p>
-                    </p>
-                </div>
+                </p>
             </div>
-            <div class="col">
-                <button class="accordion">
-                    <h2>
-                        <p>CyNeo4j</p>
-                    </h2>
-                    <p id="statement">
-                        <p>A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.</p>
+        </div>
+        <div class="col">
+            <button class="accordion">
+                <h2>
+                    CyNeo4j
+                </h2>
+                <p id="statement">
+                    A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.
+                </p>
+            </button>
+            <div class="panel">
+                <p id="description">
+                    <h4>
+                        <b>
+                            Description:
+                        </b>
+                    </h4>
+                    <p id="descriptionJson">
+                        Minimum System Requirements (for CyNeo4j 2.x):
+
+Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well)
+Cytoscape 3.9.x (automatically comes with a Java 11 download)
+Java 11 (Eclipse)
+Compiling the script The setup of this project in Eclipse has been tested with:
+
+Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11.
+Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).
+
+For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !
                     </p>
-                </button>
-                <div class="panel">
-                    <p id="description">
-                        <h4>
-                            <b>
-                                Description:
-                            </b>
-                        </h4>
-                        <p id="descriptionJson">
-                            <p>Minimum System Requirements (for CyNeo4j 2.x):</p> <p>Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well) Cytoscape 3.9.x (automatically comes with a Java 11 download) Java 11 (Eclipse) Compiling the script The setup of this project in Eclipse has been tested with:</p> <p>Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11. Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).</p> <p>For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !</p>
-                        </p>
+                </p>
+                <p id="license">
+                    <h4>
+                        <b>
+                            License:
+                        </b>
+                    </h4>
+                    <p id="licenseJson">
+                        {{Replace by license title}}
                     </p>
-                    <p id="license">
-                        <h4>
-                            <b>
-                                License:
-                            </b>
-                        </h4>
-                        <p id="licenseJson">
-                            <p>{{Replace by license title}}</p>
-                        </p>
+                </p>
+                <p id="dependencies">
+                    <h4>
+                        <b>
+                            Dependencies:
+                        </b>
+                    </h4>
+                    <p id="dependenciesJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="dependencies">
-                        <h4>
-                            <b>
-                                Dependencies:
-                            </b>
-                        </h4>
-                        <p id="dependenciesJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="code-language">
+                    <h4>
+                        <b>
+                            Code language(s):
+                        </b>
+                    </h4>
+                    <p id="code-languageJson">
+                        {{Replace by }}
                     </p>
-                    <p id="code-language">
-                        <h4>
-                            <b>
-                                Code language(s):
-                            </b>
-                        </h4>
-                        <p id="code-languageJson">
-                            <p>{{Replace by }}</p>
-                        </p>
+                </p>
+                <p id="available-platform">
+                    <h4>
+                        <b>
+                            Available platform(s):
+                        </b>
+                    </h4>
+                    <p id="available-platformJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="available-platform">
-                        <h4>
-                            <b>
-                                Available platform(s):
-                            </b>
-                        </h4>
-                        <p id="available-platformJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="interface-cli">
+                    <h4>
+                        <b>
+                            Interface CLI:
+                        </b>
+                    </h4>
+                    <p id="interface-cliJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-cli">
-                        <h4>
-                            <b>
-                                Interface CLI:
-                            </b>
-                        </h4>
-                        <p id="interface-cliJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-gui">
+                    <h4>
+                        <b>
+                            Interface GUI:
+                        </b>
+                    </h4>
+                    <p id="interface-guiJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-gui">
-                        <h4>
-                            <b>
-                                Interface GUI:
-                            </b>
-                        </h4>
-                        <p id="interface-guiJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-web-platform">
+                    <h4>
+                        <b>
+                            Interface web platform:
+                        </b>
+                    </h4>
+                    <p id="interface-web-platformJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-web-platform">
-                        <h4>
-                            <b>
-                                Interface web platform:
-                            </b>
-                        </h4>
-                        <p id="interface-web-platformJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="input-format">
+                    <h4>
+                        <b>
+                            Input format:
+                        </b>
+                    </h4>
+                    <p id="input-formatJson">
+                        {{Replace by usable input formats (eg. "text, dataset")}}
                     </p>
-                    <p id="input-format">
-                        <h4>
-                            <b>
-                                Input format:
-                            </b>
-                        </h4>
-                        <p id="input-formatJson">
-                            <p>{{Replace by usable input formats (eg. "text, dataset")}}</p>
-                        </p>
+                </p>
+                <p id="output-format">
+                    <h4>
+                        <b>
+                            Output format:
+                        </b>
+                    </h4>
+                    <p id="output-formatJson">
+                        {{Replace by given output formats (eg. "text, graph")}}
                     </p>
-                    <p id="output-format">
-                        <h4>
-                            <b>
-                                Output format:
-                            </b>
-                        </h4>
-                        <p id="output-formatJson">
-                            <p>{{Replace by given output formats (eg. "text, graph")}}</p>
-                        </p>
+                </p>
+                <p id="source-code">
+                    <h4>
+                        <b>
+                            Source code:
+                        </b>
+                    </h4>
+                    <p id="source-codeJson">
+                        {{Replace by link to the source code}}
                     </p>
-                    <p id="source-code">
-                        <h4>
-                            <b>
-                                Source code:
-                            </b>
-                        </h4>
-                        <p id="source-codeJson">
-                            <p>{{Replace by link to the source code}}</p>
-                        </p>
+                </p>
+                <p id="documentation-link">
+                    <h4>
+                        <b>
+                            Documentation link:
+                        </b>
+                    </h4>
+                    <p id="documentation-linkJson">
+                        {{Replace by link to documentation}}
                     </p>
-                    <p id="documentation-link">
-                        <h4>
-                            <b>
-                                Documentation link:
-                            </b>
-                        </h4>
-                        <p id="documentation-linkJson">
-                            <p>{{Replace by link to documentation}}</p>
-                        </p>
+                </p>
+                <p id="installation-instructions">
+                    <h4>
+                        <b>
+                            Installation instructions:
+                        </b>
+                    </h4>
+                    <p id="installation-instructionsJson">
+                        {{Replace by instalation instructions}}
                     </p>
-                    <p id="installation-instructions">
-                        <h4>
-                            <b>
-                                Installation instructions:
-                            </b>
-                        </h4>
-                        <p id="installation-instructionsJson">
-                            <p>{{Replace by instalation instructions}}</p>
-                        </p>
+                </p>
+                <p id="zenodo-link">
+                    <h4>
+                        <b>
+                            Zenodo link:
+                        </b>
+                    </h4>
+                    <p id="zenodo-linkJson">
+                        {{Replace by Zenodo link}}
                     </p>
-                    <p id="zenodo-link">
-                        <h4>
-                            <b>
-                                Zenodo link:
-                            </b>
-                        </h4>
-                        <p id="zenodo-linkJson">
-                            <p>{{Replace by Zenodo link}}</p>
-                        </p>
+                </p>
+                <p id="citation-instructions">
+                    <h4>
+                        <b>
+                            Citation instructions:
+                        </b>
+                    </h4>
+                    <p id="citation-instructionsJson">
+                        {{Replace by citation instructions}}
                     </p>
-                    <p id="citation-instructions">
-                        <h4>
-                            <b>
-                                Citation instructions:
-                            </b>
-                        </h4>
-                        <p id="citation-instructionsJson">
-                            <p>{{Replace by citation instructions}}</p>
-                        </p>
-                    </p>
-                </div>
+                </p>
             </div>
-            <div class="col">
-                <button class="accordion">
-                    <h2>
-                        <p>CyNeo4j</p>
-                    </h2>
-                    <p id="statement">
-                        <p>A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.</p>
+        </div>
+        <div class="col">
+            <button class="accordion">
+                <h2>
+                    CyNeo4j
+                </h2>
+                <p id="statement">
+                    A Cytoscape app to connect to a Neo4j database and execute extensions of the Neo4j database. This app has been extended to query the shortest path for metabolic conversions.
+                </p>
+            </button>
+            <div class="panel">
+                <p id="description">
+                    <h4>
+                        <b>
+                            Description:
+                        </b>
+                    </h4>
+                    <p id="descriptionJson">
+                        Minimum System Requirements (for CyNeo4j 2.x):
+
+Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well)
+Cytoscape 3.9.x (automatically comes with a Java 11 download)
+Java 11 (Eclipse)
+Compiling the script The setup of this project in Eclipse has been tested with:
+
+Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11.
+Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).
+
+For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !
                     </p>
-                </button>
-                <div class="panel">
-                    <p id="description">
-                        <h4>
-                            <b>
-                                Description:
-                            </b>
-                        </h4>
-                        <p id="descriptionJson">
-                            <p>Minimum System Requirements (for CyNeo4j 2.x):</p> <p>Neo4j 3.5.x (requires Java 8 but can run with Java 11 as well) Cytoscape 3.9.x (automatically comes with a Java 11 download) Java 11 (Eclipse) Compiling the script The setup of this project in Eclipse has been tested with:</p> <p>Eclipse IDE 2022-06 (Java and Web developers), OS Linux (Ubuntu 18.04.6 LTS), JRE JavaSE-11. Find the app in the Cytoscape app store (http://apps.cytoscape.org/apps/cyneo4j) and on Github (https://github.com/cyneo4j/cyNeo4j).</p> <p>For a tutorial and installation guide for the server side component checkout https://cyneo4j.github.io/DSMN/ !</p>
-                        </p>
+                </p>
+                <p id="license">
+                    <h4>
+                        <b>
+                            License:
+                        </b>
+                    </h4>
+                    <p id="licenseJson">
+                        {{Replace by license title}}
                     </p>
-                    <p id="license">
-                        <h4>
-                            <b>
-                                License:
-                            </b>
-                        </h4>
-                        <p id="licenseJson">
-                            <p>{{Replace by license title}}</p>
-                        </p>
+                </p>
+                <p id="dependencies">
+                    <h4>
+                        <b>
+                            Dependencies:
+                        </b>
+                    </h4>
+                    <p id="dependenciesJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="dependencies">
-                        <h4>
-                            <b>
-                                Dependencies:
-                            </b>
-                        </h4>
-                        <p id="dependenciesJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="code-language">
+                    <h4>
+                        <b>
+                            Code language(s):
+                        </b>
+                    </h4>
+                    <p id="code-languageJson">
+                        {{Replace by }}
                     </p>
-                    <p id="code-language">
-                        <h4>
-                            <b>
-                                Code language(s):
-                            </b>
-                        </h4>
-                        <p id="code-languageJson">
-                            <p>{{Replace by }}</p>
-                        </p>
+                </p>
+                <p id="available-platform">
+                    <h4>
+                        <b>
+                            Available platform(s):
+                        </b>
+                    </h4>
+                    <p id="available-platformJson">
+                        {{Replace by needed dependencies}}
                     </p>
-                    <p id="available-platform">
-                        <h4>
-                            <b>
-                                Available platform(s):
-                            </b>
-                        </h4>
-                        <p id="available-platformJson">
-                            <p>{{Replace by needed dependencies}}</p>
-                        </p>
+                </p>
+                <p id="interface-cli">
+                    <h4>
+                        <b>
+                            Interface CLI:
+                        </b>
+                    </h4>
+                    <p id="interface-cliJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-cli">
-                        <h4>
-                            <b>
-                                Interface CLI:
-                            </b>
-                        </h4>
-                        <p id="interface-cliJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-gui">
+                    <h4>
+                        <b>
+                            Interface GUI:
+                        </b>
+                    </h4>
+                    <p id="interface-guiJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-gui">
-                        <h4>
-                            <b>
-                                Interface GUI:
-                            </b>
-                        </h4>
-                        <p id="interface-guiJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="interface-web-platform">
+                    <h4>
+                        <b>
+                            Interface web platform:
+                        </b>
+                    </h4>
+                    <p id="interface-web-platformJson">
+                        {{Replace by yes or no}}
                     </p>
-                    <p id="interface-web-platform">
-                        <h4>
-                            <b>
-                                Interface web platform:
-                            </b>
-                        </h4>
-                        <p id="interface-web-platformJson">
-                            <p>{{Replace by yes or no}}</p>
-                        </p>
+                </p>
+                <p id="input-format">
+                    <h4>
+                        <b>
+                            Input format:
+                        </b>
+                    </h4>
+                    <p id="input-formatJson">
+                        {{Replace by usable input formats (eg. "text, dataset")}}
                     </p>
-                    <p id="input-format">
-                        <h4>
-                            <b>
-                                Input format:
-                            </b>
-                        </h4>
-                        <p id="input-formatJson">
-                            <p>{{Replace by usable input formats (eg. "text, dataset")}}</p>
-                        </p>
+                </p>
+                <p id="output-format">
+                    <h4>
+                        <b>
+                            Output format:
+                        </b>
+                    </h4>
+                    <p id="output-formatJson">
+                        {{Replace by given output formats (eg. "text, graph")}}
                     </p>
-                    <p id="output-format">
-                        <h4>
-                            <b>
-                                Output format:
-                            </b>
-                        </h4>
-                        <p id="output-formatJson">
-                            <p>{{Replace by given output formats (eg. "text, graph")}}</p>
-                        </p>
+                </p>
+                <p id="source-code">
+                    <h4>
+                        <b>
+                            Source code:
+                        </b>
+                    </h4>
+                    <p id="source-codeJson">
+                        {{Replace by link to the source code}}
                     </p>
-                    <p id="source-code">
-                        <h4>
-                            <b>
-                                Source code:
-                            </b>
-                        </h4>
-                        <p id="source-codeJson">
-                            <p>{{Replace by link to the source code}}</p>
-                        </p>
+                </p>
+                <p id="documentation-link">
+                    <h4>
+                        <b>
+                            Documentation link:
+                        </b>
+                    </h4>
+                    <p id="documentation-linkJson">
+                        {{Replace by link to documentation}}
                     </p>
-                    <p id="documentation-link">
-                        <h4>
-                            <b>
-                                Documentation link:
-                            </b>
-                        </h4>
-                        <p id="documentation-linkJson">
-                            <p>{{Replace by link to documentation}}</p>
-                        </p>
+                </p>
+                <p id="installation-instructions">
+                    <h4>
+                        <b>
+                            Installation instructions:
+                        </b>
+                    </h4>
+                    <p id="installation-instructionsJson">
+                        {{Replace by instalation instructions}}
                     </p>
-                    <p id="installation-instructions">
-                        <h4>
-                            <b>
-                                Installation instructions:
-                            </b>
-                        </h4>
-                        <p id="installation-instructionsJson">
-                            <p>{{Replace by instalation instructions}}</p>
-                        </p>
+                </p>
+                <p id="zenodo-link">
+                    <h4>
+                        <b>
+                            Zenodo link:
+                        </b>
+                    </h4>
+                    <p id="zenodo-linkJson">
+                        {{Replace by Zenodo link}}
                     </p>
-                    <p id="zenodo-link">
-                        <h4>
-                            <b>
-                                Zenodo link:
-                            </b>
-                        </h4>
-                        <p id="zenodo-linkJson">
-                            <p>{{Replace by Zenodo link}}</p>
-                        </p>
+                </p>
+                <p id="citation-instructions">
+                    <h4>
+                        <b>
+                            Citation instructions:
+                        </b>
+                    </h4>
+                    <p id="citation-instructionsJson">
+                        {{Replace by citation instructions}}
                     </p>
-                    <p id="citation-instructions">
-                        <h4>
-                            <b>
-                                Citation instructions:
-                            </b>
-                        </h4>
-                        <p id="citation-instructionsJson">
-                            <p>{{Replace by citation instructions}}</p>
-                        </p>
-                    </p>
-                </div>
+                </p>
             </div>
+        </div>
 
     </div>
     <script>
