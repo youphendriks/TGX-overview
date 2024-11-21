@@ -1,14 +1,18 @@
 [
-    {
-        "name":"cyneo4j",
-        "rawlink":"https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
-    },
-    {
-        "name":"BridgeDB",
-        "rawlink":"https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
-    },
-    {
-        "name":"Cytoscape",
-        "rawlink":"https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
-    }
+  {
+    "name": "cyneo4j",
+    "rawlink": "https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
+  },
+  {
+    "name": "BridgeDB",
+    "rawlink": "https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
+  },
+  {
+    "name": "Cytoscape",
+    "rawlink": "https://raw.githubusercontent.com/youphendriks/bigcat-software-project/main/README.md"
+  },
+  {
+    "name": "CyTargetLinker",
+    "rawlink": "https://raw.githubusercontent.com/CyTargetLinker/cytargetlinker/refs/heads/master/README.md"
+  }
 ]
