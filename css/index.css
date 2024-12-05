@@ -11,10 +11,22 @@ header {
   box-shadow: 5px 5px 5px #e0e0e0;
 }
 
-.nav-link:hover {
+.navbar-nav {
+  padding-top: 20px;
+}
+
+.nav-item {
+  border-radius: 20px;
+}
+.nav-item:hover {
   background-color: #e8e8e8;
   color: #545454;
   border-radius: 20px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h2 {
@@ -50,7 +62,6 @@ h2 {
 
 .active, .accordion:hover {
   background-color: #e8e8e8;
-  border-radius: 20px;
 }
 
 .panel {
