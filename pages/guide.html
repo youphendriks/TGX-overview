@@ -1,18 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>TGX overview</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="../js/toggletext.js"></script>
   </head>
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="../index.html">TGX overview</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./pics/tgxLogo.png" class="d-inline-block" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -30,7 +46,9 @@
               <a class="nav-link" href="research.html">Research</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link active" aria-current="page"  href="guide.html">Guide</a>
+              <a class="nav-link active" aria-current="page" href="guide.html"
+                >Guide</a
+              >
             </li>
           </div>
         </div>
@@ -41,58 +59,114 @@
     <div class="container" id="bodyContainer">
       <div class="col">
         <h1>Adding your repository</h1>
-        <p>This guide will help you publish your repository to the TGX website.<br></p>
-          <h2>Step 1: Editing your readme.md</h2>
-            <p>
-              Your readme.md probably already has parts of the information we want to show on the TGX-overview webpage.<br>
-              This information needs to be enclosed using opening- and closing tags.<br>
-              There are two approaches to editing your readme.md file:
-            </p>
-            <ul>
-              <li><h4>Use the template.</h4></li>
-                <p>
-                  Use <a href="https://github.com/youphendriks/TGX-overview/blob/main/templates/software-project.md">this</a> template by clicking the link, then pressing "raw" in the topright corner and copy the text.<br>
-                  Then paste the template text into your readme.md and change the text between the "{{ Replace by... }}" annotations.<br>
-                  If you don't know what to fill in for a tag you can just delete the line.<br>
-                  You can now save your readme.md and continue to step 2.
-                </p>
-              <li><h4>Adding tags to your current readme.md.</h4></li>
-                <p>
-                  A list of usable tags can be found <a href="https://github.com/youphendriks/TGX-overview/blob/main/scripts/tag_list.json">here</a>.<br>
-                  A short description of what is meant with each tag can be found in the <a href="https://github.com/youphendriks/TGX-overview/blob/main/templates/software-project.md">template</a>.<br>
-                  You can now add an opening tag before the relevant information in your readme.md, eg. ""<!--Title-->"".<br>
-                  Then add a closing tag behind the information, eg. ""<!--/Title-->"".<br>
-                  Do this for each tag you want to use and save your readme.md, then continue to step 2.
-                </p>
-            </ul>
-          <h2>Step 2: Add your software package to the TGX-overview.</h2>
-            <p>This step can also be completed in two ways:<br></p>
-            <ul>
-              <li><h4>Find the rawlink to your readme and create a PR.</h4></li>
-                  <p>
-                    The rawlink of your readme can be found by clicking the readme.md file on your github repository, then clicking "raw" in the topright corner.<br>
-                    The rawlink is the URL found in the address bar.<br>
-                    You can now add this rawlink and the title of your project to <a href="https://github.com/youphendriks/TGX-overview/blob/main/scripts/project_list.json">this</a> file and send me a PR.<br>
-                    Have no idea how to do the above? Don't worry, that's what the second option is for (however, if you want to learn how to do this, let me know!).
-                  </p>
-              <li><h4>Shoot me a mail.</h4></li>
-                  <p>
-                    Just send me a quick <a href="mailto:youp_hendriks@hotmail.com">mail</a> mentioning the URL to your repository and I will add your project to the TGX-overview webpage.
-                  </p>
-            </ul>
+        <p>
+          This guide will help you publish your repository to the TGX
+          website.<br />
+        </p>
+        <h2>Step 1: Editing your readme.md</h2>
+        <p>
+          Your readme.md probably already has parts of the information we want
+          to show on the TGX-overview webpage.<br />
+          This information needs to be enclosed using opening- and closing
+          tags.<br />
+          There are two approaches to editing your readme.md file:
+        </p>
+        <ul>
+          <li><h4>Use the template.</h4></li>
+          <p>
+            Use
+            <a
+              href="https://github.com/youphendriks/TGX-overview/blob/main/templates/software-project.md"
+              >this</a
+            >
+            template by clicking the link, then pressing "raw" in the topright
+            corner and copy the text.<br />
+            Then paste the template text into your readme.md and change the text
+            between the "{{ Replace by... }}" annotations.<br />
+            If you don't know what to fill in for a tag you can just delete the
+            line.<br />
+            You can now save your readme.md and continue to step 2.
+          </p>
+          <li><h4>Adding tags to your current readme.md.</h4></li>
+          <p>
+            A list of usable tags can be found
+            <a
+              href="https://github.com/youphendriks/TGX-overview/blob/main/scripts/tag_list.json"
+              >here</a
+            >.<br />
+            A short description of what is meant with each tag can be found in
+            the
+            <a
+              href="https://github.com/youphendriks/TGX-overview/blob/main/templates/software-project.md"
+              >template</a
+            >.<br />
+            You can now add an opening tag before the relevant information in
+            your readme.md, eg. ""<!--Title-->"".<br />
+            Then add a closing tag behind the information, eg. ""<!--/Title-->"".<br />
+            Do this for each tag you want to use and save your readme.md, then
+            continue to step 2.
+          </p>
+        </ul>
+        <h2>Step 2: Add your software package to the TGX-overview.</h2>
+        <p>This step can also be completed in two ways:<br /></p>
+        <ul>
+          <li><h4>Find the rawlink to your readme and create a PR.</h4></li>
+          <p>
+            The rawlink of your readme can be found by clicking the readme.md
+            file on your github repository, then clicking "raw" in the topright
+            corner.<br />
+            The rawlink is the URL found in the address bar.<br />
+            You can now add this rawlink and the title of your project to
+            <a
+              href="https://github.com/youphendriks/TGX-overview/blob/main/scripts/project_list.json"
+              >this</a
+            >
+            file and send me a PR.<br />
+            Have no idea how to do the above? Don't worry, that's what the
+            second option is for (however, if you want to learn how to do this,
+            let me know!).
+          </p>
+          <li><h4>Shoot me a mail.</h4></li>
+          <p>
+            Just send me a quick
+            <a href="mailto:youp_hendriks@hotmail.com">mail</a> mentioning the
+            URL to your repository and I will add your project to the
+            TGX-overview webpage.
+          </p>
+        </ul>
         <h1>How does it work?</h1>
-          <ol>
-            <li>A python script on the TGX-overview website will run routinely.</li>
-            <li>The script downloads the readme.md file on your repository.</li>
-            <li>It will then search for the tags in your file and extract the information between the opening- and closing tag.</li>
-            <li>The information is then stored or updated in the TGX-overview database.</li>
-            <li>The TGX-overview database is then used to create webpages showing the new information about your repository.</li>
-          </ol>
+        <ol>
+          <li>
+            A python script on the TGX-overview website will run routinely.
+          </li>
+          <li>The script downloads the readme.md file on your repository.</li>
+          <li>
+            It will then search for the tags in your file and extract the
+            information between the opening- and closing tag.
+          </li>
+          <li>
+            The information is then stored or updated in the TGX-overview
+            database.
+          </li>
+          <li>
+            The TGX-overview database is then used to create webpages showing
+            the new information about your repository.
+          </li>
+        </ol>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
   <div id="myFooter" class="footer">
-      <p>Something wrong on/with the page? Create an issue on <a href="https://github.com/youphendriks/TGX-overview">github</a> or send me an e-mail at <a href="mailto:youp_hendriks@hotmail.com">youp_hendriks@hotmail.com</a></p>
+    <p>
+      Something wrong on/with the page? Create an issue on
+      <a href="https://github.com/youphendriks/TGX-overview">github</a> or send
+      me an e-mail at
+      <a href="mailto:youp_hendriks@hotmail.com">youp_hendriks@hotmail.com</a>
+    </p>
   </div>
 </html>
